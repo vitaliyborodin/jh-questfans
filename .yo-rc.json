@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "questfans",
+    "packageName": "com.questfans",
+    "packageFolder": "com/questfans",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "5b434e30932d3e0e8215689507ef8bc56b7c05c9",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
